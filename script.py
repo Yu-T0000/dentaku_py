@@ -39,7 +39,7 @@ while True:
     elif input_val == "C" or input_val == "c":  #初期化
         input_data = list()
         guide_index = 0
-        print(f"\n入力値がリセットされました！すっきり")
+        print(f"\n入力値がリセットされました！すっきり！")
 
     if is_number(input_val):
         input_data.append(float(input_val))
